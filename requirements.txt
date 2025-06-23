@@ -1,0 +1,30 @@
+# Core data processing libraries
+pandas==1.5.3                # For handling data (DataFrames)
+numpy==1.23.4                 # For numerical operations
+matplotlib==3.6.3             # For visualizations (e.g., sentiment trends)
+seaborn==0.11.2               # For statistical visualizations
+scikit-learn==1.1.2           # For machine learning utilities (e.g., vectorizers)
+
+# Text Preprocessing and Tokenization
+nltk==3.7                     # For tokenization, stopwords, and sentiment analysis
+spacy==3.4.3                  # For advanced NLP tasks like POS tagging and NER
+spacy-transformers==1.0.0     # To integrate transformer models with spaCy
+textblob==0.15.3              # For sentiment analysis
+regex==2022.10.31             # For pattern matching and regex-based entity extraction
+beautifulsoup4==4.11.1        # For HTML parsing if needed in feedback
+
+# Sentiment Analysis
+vaderSentiment==3.3.2         # For sentiment analysis (VADER)
+transformers==4.23.0          # For Hugging Face transformer models (e.g., BERT, T5, etc.)
+torch==1.12.1                 # For running Hugging Face models (requires PyTorch)
+
+# Summarization Tools
+sumy==0.8.1                   # For extractive summarization using algorithms like LSA
+bert-extractive-summarizer==0.10.2  # For extractive summarization using BERT models
+sentencepiece==0.1.96         # For sentence segmentation and tokenization
+
+# Machine Learning & Text Vectorization
+scipy==1.9.3                  # For scientific computation, distance metrics
+wordcloud==1.8.2.2            # For generating word clouds to visualize feedback themes
+
+
